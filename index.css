@@ -19,3 +19,8 @@ html {
 .card {
     border-image: conic-gradient(red, yellow, orange) 1;
 }
+
+hr {
+    background: linear-gradient(to right, red, lime, yellow);
+    height: 1px;
+}
