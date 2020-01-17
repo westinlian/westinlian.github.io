@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.fixednav {
+    border-right: 2px solid orange; 
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+    height: 100vh;
+    position: fixed;
+}
+
+.showcase {
+    display: flex; 
+    align-items: center; 
+    height: 100vh
+}
+
+.card {
+    border-image: conic-gradient(red, yellow, orange) 1;
+}
